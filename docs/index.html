@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kazuki Kanda | Portfolio</title>
+  <link rel="stylesheet" href="assets/style.css">
+  <script>
+    (function () {
+      const saved = localStorage.getItem('kk-theme');
+      if (saved) {
+        document.documentElement.setAttribute('data-theme', saved);
+      }
+    })();
+  </script>
+  <script defer src="assets/main.js"></script>
+</head>
+<body>
+  <a class="skip-link" id="skip-link" href="#hero"></a>
+  <header class="site-header" role="banner">
+    <div class="brand">
+      <div class="brand-mark" aria-hidden="true"></div>
+      <div class="brand-text">
+        <span class="brand-name" id="brand-name"></span>
+        <span class="brand-handle" id="brand-handle"></span>
+      </div>
+    </div>
+    <nav class="site-nav" id="site-nav" aria-label="In-page navigation">
+      <ul class="nav-list" id="nav-links"></ul>
+    </nav>
+    <button class="mode-toggle" id="theme-toggle" type="button" aria-pressed="false">
+    </button>
+  </header>
+
+  <main id="page">
+    <section id="hero" class="section hero">
+      <div class="section-header">
+        <p class="eyebrow" id="hero-tagline"></p>
+        <h1 id="hero-name"></h1>
+        <p class="subtitle" id="hero-handle-display"></p>
+      </div>
+      <div class="hero-body">
+        <figure class="hero-photo">
+          <img id="hero-photo" alt="" loading="lazy">
+        </figure>
+        <div class="summary" id="hero-summary"></div>
+      </div>
+      <div class="quick-links hero-links">
+        <p class="label" id="quick-links-label"></p>
+        <div class="link-list link-list--pills" id="quick-links"></div>
+      </div>
+    </section>
+
+    <section id="focus" class="section">
+      <div class="section-header">
+        <h2 class="section-title" data-heading="focus"></h2>
+      </div>
+      <ul class="pill-list" id="focus-list"></ul>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="section-header">
+        <h2 class="section-title" data-heading="projects"></h2>
+      </div>
+      <div class="card-grid" id="projects-grid"></div>
+    </section>
+
+    <section id="writing" class="section">
+      <div class="section-header">
+        <h2 class="section-title" data-heading="writing"></h2>
+      </div>
+      <div class="writing-grid" id="writing-grid"></div>
+    </section>
+
+    <section id="experience" class="section">
+      <div class="section-header">
+        <h2 class="section-title" data-heading="experience"></h2>
+      </div>
+      <div class="timeline" id="experience-list"></div>
+      <p class="meta-note" id="timeline-note"></p>
+    </section>
+
+    <section id="education" class="section">
+      <div class="section-header">
+        <h2 class="section-title" data-heading="education"></h2>
+      </div>
+      <ul class="edu-list" id="education-list"></ul>
+      <p class="meta-note" id="education-note"></p>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="section-header">
+        <h2 class="section-title" data-heading="skills"></h2>
+      </div>
+      <div class="skills-grid" id="skills-grid"></div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="section-header">
+        <h2 class="section-title" data-heading="contact"></h2>
+      </div>
+      <div class="contact-card" id="contact-card">
+        <p class="contact-line" id="contact-email"></p>
+        <p class="contact-line" id="contact-note"></p>
+        <p class="contact-line" id="issue-prompt"></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p id="footer-note"></p>
+  </footer>
+</body>
+</html>
