@@ -8,8 +8,8 @@
       "alt": "Profile photo"
     },
     "summary": [
-      "Site Reliability Engineer and Machine Learning Engineer with 9 years shaping services across Ruby, Rust, and Python.",
-      "Works across AWS and Terraform (with Azure exposure) to keep systems predictable while enabling ML-driven features.",
+      "Site Reliability Engineer and Machine Learning Engineer with 9 years of experience building and operating services in Ruby, Rust, and Python.",
+      "Works with AWS and Terraform (with some Azure exposure) to keep systems predictable while enabling ML-driven features.",
       "Interested in the interface between high-level abstraction and low-level systems; prefers quiet precision over hype."
     ],
     "quickLinks": [
@@ -50,7 +50,7 @@
     "modeToggle": "Toggle dark mode"
   },
   "focus": [
-    "Exploring VM/runtime/GC behavior to bridge ML workloads with systems constraints.",
+    "Exploring VM/runtime/GC behavior to bridge ML workloads with system constraints.",
     "Learning about OS behavior, memory layout, and boundary cases that surface edge conditions.",
     "Designing review flows that align responsibility, data flow clarity, and failure isolation.",
     "Building workflows that keep ML deployments observable and reproducible.",
@@ -90,7 +90,7 @@
     "zenn": {
       "title": "Zenn Articles",
       "url": "https://zenn.dev/ka_kan",
-      "countLabel": "Articles: 71 (editable)"
+      "countLabel": "Articles: 70+"
     },
     "archive": {
       "title": "Blog archive",
@@ -110,7 +110,7 @@
     "Systems": [
       "OS behavior analysis",
       "Memory layout and boundary cases",
-      "Currently exploring VM/runtime/GC behavior"
+      "VM/runtime/GC behavior (currently exploring)"
     ],
     "Cloud/SRE": [
       "AWS",
@@ -134,5 +134,5 @@
     "note": "",
     "github": ""
   },
-  "footerNote": "Academic CV-inspired structure; edit content.json to update details."
+  "footerNote": ""
 }
