@@ -45,7 +45,7 @@
     "projectStatus": "Status",
     "projectTech": "Tech",
     "timelineNote": "Add organizations, scope, and scale when available.",
-    "educationNote": "Add institution details when ready.",
+    "educationNote": "",
     "issuePrompt": "",
     "modeToggle": "Toggle dark mode"
   },
@@ -102,8 +102,8 @@
   "education": [
     {
       "degree": "Bachelor's in Physics",
-      "institution": "Add institution",
-      "notes": "Add graduation year or thesis area."
+      "institution": "",
+      "notes": ""
     }
   ],
   "skills": {
